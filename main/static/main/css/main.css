@@ -1,0 +1,228 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+#body {
+	transition: background-color 0.5s ease, color 0.5s ease;
+	font-family: 'Roboto', sans-serif;
+	background-color: #b1fcb3
+}
+
+#header {
+	position: relative;
+	height: 120px;
+	top: -25px;
+	color: #20d426;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 50px;
+	background: #3ac1ff;
+
+}
+#headertext {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	background: transparent;
+	position: relative;
+	top: 35px;
+}
+
+#navigation {
+	background: #b5b5b5;
+	border-radius: 25px;
+	font-size: 20px;
+	color: #000;
+	height: 75px;
+	width: 75%;
+	position: relative;
+	left: 12%;
+	text-align: center;
+	box-shadow: 10px 10px 25px 0px #0000004D;
+}
+
+#navigation_text {
+	font-family: 'Roboto', sans-serif;
+	color: #111111;
+	text-decoration: none;
+	background: #b5b5b5;
+	position: relative;
+	top: 25px;
+	left: -30px;
+	transition-property: color;
+	transition-duration: 0.25s;
+}
+
+#navigation_text2 {
+	font-family: 'Roboto', sans-serif;
+	background: #b5b5b5;
+	position: relative;
+	top: 25px;
+	left: -10px;
+	transition-property: color;
+	transition-duration: 0.25s;
+}
+
+#navigation_text3 {
+	font-family: 'Roboto', sans-serif;
+	background: #b5b5b5;
+	position: relative;
+	top: 25px;
+	right: -10px;
+	transition-property: color;
+	transition-duration: 0.25s;
+}
+
+#navigation_text4 {
+	font-family: 'Roboto', sans-serif;
+	background: #b5b5b5;
+	position: relative;
+	width: ;
+	height: ;
+	top: 25px;
+	right: -30px;
+	transition-property: color, background-color;
+	transition-duration: 0.25s;
+}
+
+#main_content {
+	background: #d7d9d7;
+	position: relative;
+	top: 20px;
+	left: 157px;
+	height: 500px;
+	width: 76%;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 10px 10px 25px 0px #0000004D;
+}
+
+#linktokira {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #000000;
+	background: transparent;
+}
+
+#main_text {
+	font-family: 'Roboto', sans-serif;
+	background: transparent;
+	color: #000000;
+}
+
+#navigation_text:hover {
+	cursor: pointer;
+	color: #e8453c;
+	background-color: #e08580;
+}
+
+#navigation_text2:hover {
+	color: #ffb8b8;
+	background-color: #fcd9d9;
+	cursor: pointer;
+}
+
+#navigation_text3:hover {
+	color: #9aa2fc;
+	background-color: #cacefc;
+	cursor: pointer;
+}
+
+#navigation_text4:hover {
+	color: #fcf39a;
+	background-color: #fcfae3;
+	cursor: pointer;
+}
+
+#night {
+	background: none;
+	background-color: transparent;
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	top: 500px;
+	left: 25px;
+	transition-property: transform;
+	transform-style: ease;
+	transition-duration: 1s;
+}
+
+#night:hover {
+	cursor: pointer;
+	transform: scale(1.5);
+}
+
+#footer {
+	position: fixed;
+	top: 95%;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	background: #187814;
+	border-radius: 25px;
+	color: #fff;
+}
+
+#header, #navigation, #footer, #main_content, #headertext, #main_text, #navigation_text, #navigation_text2, #navigation_text3, #navigation_text4 {
+    transition: background-color 0.5s ease, color 0.5s ease, background 0.5s ease; /* Анимация для отдельных элементов */
+}
+
+body.night-mode #header {
+    background-color: #333333;
+    color: #fff;
+}
+
+body.night-mode #navigation {
+    background-color: #444444;
+    color: #fff;
+}
+
+body.night-mode #headertext{
+	background-color: #333333;
+}
+
+body.night-mode #navigation_text {
+	background-color: #444444;
+	#color: #fff;
+}
+
+body.night-mode #navigation_text2 {
+	background-color: #444444;
+	#color: #fff;
+}
+
+body.night-mode #navigation_text3 {
+	background-color: #444444;
+	#color: #fff;
+}
+
+body.night-mode #navigation_text4 {
+	background-color: #444444;
+	#color: #fff;
+}
+
+body.night-mode #main_content {
+    background-color: #222222;
+    color: #fff;
+}
+
+body.night-mode #main_text {
+	color: #fff;
+}
+
+body.night-mode {
+	background-color: #111111;
+}
+
+body.night-mode #footer {
+	background: #111111;
+}
+
+body.night-mode #linktokira {
+	color: #ffffff;
+}
+
+body.night {
+	color: #111111;
+}
